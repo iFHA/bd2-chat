@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+body {
+  color: $secondary;
+}
+
+.container-wrapper {
+  height: calc(100vh - 80px) !important;
+}
+
+.navbar {
+  height: 80px;
+}
+
+button {
+  width: 100%;
+  &.btn {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
